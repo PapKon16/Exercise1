@@ -9,6 +9,7 @@ public class operationsTest {
     public void testSubtraction() {
         assertEquals("positive", operations.subtraction(5, 3));
         assertEquals("negative", operations.subtraction(3, 5));
+        assertEquals("zero", operations.subtraction(5, 5));
     }
 }
 
