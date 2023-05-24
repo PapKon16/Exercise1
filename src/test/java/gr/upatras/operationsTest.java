@@ -12,4 +12,3 @@ public class operationsTest {
         assertEquals("zero", operations.subtraction(5, 5));
     }
 }
-
